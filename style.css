@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+    background-color: #121313;
+    overflow-y: hidden;
+    /* font-family: 'Varela Round', sans-serif; */
+}
+
+/* Left Panel */
+
+#aside-container {
+    display: inline-block;
+    position: fixed;
+    background-color: #000000;
+    width: 15%;
+    height: 90vh;
+    min-width: 10%;
+
+}
+
+/* Inside Left Panel */
+
+
+/* Section 1  */
+
+.navigate-section {
+    min-height: 32%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+/* Image */
+
+#spotify-logo-div {
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#spotify-logo {
+    margin-top: 5px;
+    height: 13%;
+    width: 60%;
+
+    /* min-width: 60%; */
+    /* max-width: 60%; */
+}
+
+
+/* Icons Div-1 */
+
+.playlist {
+    height: 55%;
+    
+}
+
+.icons-div-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 18px;
+    /* height: 55%; */
+}
+
+.icons-div-1 a {
+    margin-top: 13px;
+    text-decoration: none;
+    color: #B3B2B3;
+}
+
+.icons-div-1 a:hover {
+    color: #FFFF;
+}
+
+.icons-div-1 span {
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+
+/* Section-2 */
+
+/* .playlist {
+    position: relative;
+    border: white 1px solid;
+    height: 55%;
+} */
+
+/* Main */
+
+main {
+    display: inline-block;
+    position: absolute;
+    height: 89.3vh;
+    width: 83.3%;
+    color: white;
+    /* margin-right: 30px; */
+    margin-left: 16.7%;
+    
+}
+
+
+
+/* Section-1 */
+
+.section-1 {
+    margin-top: 100px;
+    min-height: 25%;
+    
+}
+
+
+
+.section-1 h1 {
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    /* width: 490px;
+    height: 85px; */
+    background-color: #2E2E30;
+    border-radius: 5px;
+    margin-top: 17px;
+    margin-right: 25px;
+}
+
+.card img {
+    height: 76px;
+    width: 105px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card p {
+    margin-left: 15px;
+}
+
+/* section-2 */
+
+
+.section-2, .section-3 {
+    margin-top: 40px;
+}
+
+.show-card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    height: 245px;
+    width: 12%;
+    background-color: #191918;
+    margin-right: 28px;
+    margin-top: 17px;
+}
+
+.show-card:hover {
+    background-color: #232322;
+}
+
+.show-card img {
+    height: 90%;
+    width: 95%;
+    /* height: 128px;
+    width: 145px; */
+    border-radius: 3px;
+}
+
+/* ASK THISS!!!!!!!!! */
+
+.show-card-space {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.show-card h3 {
+    margin-top: 18px;
+    font-size: 1rem;
+}
+
+.show-card p {
+    margin-top: 10px;
+    color: #B3B2B3;
+    font-size: 0.9rem;
+}
+
+/* Section-3 */
+
+.section-3 {
+    /* height: 85%; */
+    height: 750px;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #191918;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 15px;
+}
+
+#song-image-div {
+    display: flex;
+}
+
+#song-image {
+    height: 60px;
+    width: 67px;
+}
+
+.writer-details {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.writer-details p, .writer-details h4 {
+    margin: 0;
+}
+
+.writer-details h4:hover {
+    text-decoration: underline;
+    
+}
+
+.writer-details p:hover {
+    border-bottom: 1px solid #FFFF;
+    color: #FFFF;
+}
+
+.writer-details h4 {
+    font-weight: 400;
+}
+
+
+
+.writer-details p {
+    color: #B3B2B3;
+    font-size: 0.8rem;
+}
+
+
+.writer {
+    display: flex;
+    color: white; 
+    margin-left: 30px;
+}
+
+/* Play Buttons */
+
+#play {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Classes used everywhere */
+
+.space-1 {
+    margin: 25px 22px;
+}
+
+.no-space {
+    margin: 0;
+}
+
+.space-2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 22px;
+    
+    
+    
+}
+
+#border-radius-round {
+    border-radius: 50%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+    
+}
+
+.scroll-y::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-y::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.scroll-y::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
