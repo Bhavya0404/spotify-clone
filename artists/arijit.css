@@ -1,246 +1,361 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Signika', sans-serif;
-    background-color: #121313;
-    overflow-y: hidden;
-    /* font-family: 'Varela Round', sans-serif; */
+  margin: 0;
+  padding: 0;
+  font-family: "Signika", sans-serif;
+  /* background-color: #121313; */
+  background-color: #141414;
+  overflow-y: hidden;
+  /* font-family: 'Varela Round', sans-serif; */
 }
 
 /* Left Panel */
 
 #aside-container {
-    display: inline-block;
-    position: fixed;
-    background-color: #000000;
-    width: 15%;
-    height: 90vh;
-    min-width: 10%;
-
+  display: inline-block;
+  position: fixed;
+  background-color: #000000;
+  width: 15%;
+  height: 90vh;
+  min-width: 10%;
 }
 
 /* Inside Left Panel */
 
-
 /* Section 1  */
 
 .navigate-section {
-    min-height: 32%;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: flex-start;
+  min-height: 32%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: flex-start;
 }
 
 /* Image */
 
 #spotify-logo-div {
-    
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 #spotify-logo {
-    margin-top: 5px;
-    height: 13%;
-    width: 60%;
-
-    /* min-width: 60%; */
-    /* max-width: 60%; */
+  margin-top: 5px;
+  height: 13%;
+  width: 60%;
 }
-
 
 /* Icons Div-1 */
 
 .playlist {
-    height: 55%;
-    
+  height: 55%;
 }
 
 .icons-div-1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-    margin-right: 18px;
-    /* height: 55%; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-right: 18px;
 }
 
 .icons-div-1 a {
-    margin-top: 13px;
-    text-decoration: none;
-    color: #B3B2B3;
+  margin-top: 13px;
+  text-decoration: none;
+  color: #b3b2b3;
 }
 
 .icons-div-1 a:hover {
-    color: #FFFF;
+  color: #ffff;
 }
 
 .icons-div-1 span {
-    font-size: 1.3rem;
-    margin-right: 8px;
+  font-size: 1.3rem;
+  margin-right: 8px;
 }
-
-
-/* Section-2 */
-
-/* .playlist {
-    position: relative;
-    border: white 1px solid;
-    height: 55%;
-} */
 
 /* Main */
 
 main {
-    display: inline-block;
-    position: absolute;
-    height: 89.3vh;
-    width: 83.3%;
-    color: white;
-    /* margin-right: 30px; */
-    margin-left: 16.7%;
-    
+  display: inline-block;
+  position: absolute;
+  height: 89.3vh;
+  width: 85%;
+  color: white;
+  /* margin-right: 30px; */
+  margin-left: 15%;
 }
 
-
+.main-container {
+  height: 90vh;
+}
 
 /* Section-1 */
 
 .section-1 {
-    height: 25%;
-    background-image: url("../assets/images/arijit-pic.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;    
-    
+  height: 55%;
+  background-image: url("https://wallpapercave.com/wp/wp1890524.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
 }
 
 #arijit-img {
-    width: 100%;
-    height: 25%;
+  width: 100%;
+  height: 25%;
 }
 
+.text {
+  position: absolute;
+  margin-left: 40px;
+  bottom: 10%;
+}
 
+#name {
+  font-size: 5rem;
+  margin: 0;
+}
 
+/* section-2 */
 
+.songs-container {
+  margin-left: 30px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
 
+.songs {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  /* width: 90%; */
+  width: 75%;
+}
 
+.off-white {
+  color: #afaeaf;
+}
+
+.songs > div {
+  padding-left: 15px;
+}
+
+.songs:hover {
+  background-color: #2c2c2c;
+}
+
+#image {
+  height: 40px;
+  width: 45px;
+  margin-top: 5px;
+}
+
+.song-data {
+  /* width: 75%; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 20px;
+}
+
+.song-name {
+  display: flex;
+  width: 30%;
+}
+
+.song-name p {
+  margin-left: 15px;
+}
+
+.time {
+  padding-right: 15px;
+}
 
 /* Footer */
 
 footer {
-    width: 100%;
-    height: 100px;
-    background-color: #191918;
-    position: fixed;
-    bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #191918;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 19px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 15px;
 }
 
 #song-image-div {
-    display: flex;
+  display: flex;
 }
 
 #song-image {
-    height: 60px;
-    width: 67px;
+  height: 60px;
+  width: 67px;
 }
 
 .writer-details {
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
-.writer-details p, .writer-details h4 {
-    margin: 0;
+.writer-details p,
+.writer-details h4 {
+  margin: 0;
 }
 
 .writer-details h4:hover {
-    text-decoration: underline;
-    
+  text-decoration: underline;
 }
 
 .writer-details p:hover {
-    border-bottom: 1px solid #FFFF;
-    color: #FFFF;
+  border-bottom: 1px solid #ffff;
+  color: #ffff;
 }
 
 .writer-details h4 {
-    font-weight: 400;
+  font-weight: 400;
 }
-
-
 
 .writer-details p {
-    color: #B3B2B3;
-    font-size: 0.8rem;
+  color: #b3b2b3;
+  font-size: 0.8rem;
 }
 
-
 .writer {
-    display: flex;
-    color: white; 
-    margin-left: 30px;
+  display: flex;
+  color: white;
+  margin-left: 30px;
 }
 
 /* Play Buttons */
 
-#play {
-    width: 100%;
-    height: 100%;
+.action-buttons {
+  display: flex;
+  color: #ffff;
+  justify-content: space-around;
+  width: 40%;
+  height: 45px;
+  font-size: 1.7rem;
+  margin-left: 33%;
 }
 
+#play {
+  font-size: 2rem;
+}
 
+#left,
+#right {
+  margin-top: 3px;
+  color: #b3b2b3;
+}
+
+.song-status {
+  display: flex;
+}
+
+.song-status p {
+  color: #bbbbba;
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+#my-progress-bar {
+  width: 500px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 7.3px;
+  min-width: 300px;
+}
+
+/* Sound bar */
+
+.sound-bar {
+  color: #ffff;
+  margin-top: 15px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+}
+
+#speaker-icon {
+  margin-top: -2px;
+  margin-right: 3px;
+}
+
+#my-progress-bar-sound {
+  margin-left: 5px;
+  /* margin-top: -6; */
+}
+
+/* .sound-bar > span {
+    margin-right: 2px;
+    margin-top: -20px;
+  } */
 
 /* Classes used everywhere */
 
 .space-1 {
-    margin: 25px 22px;
+  margin: 25px 22px;
 }
 
 .no-space {
-    margin: 0;
+  margin: 0;
 }
 
 .space-2 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-    margin-left: 22px;
-    
-    
-    
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 22px;
 }
 
 #border-radius-round {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .scroll-y {
-    overflow-y: scroll;
-    
+  overflow-y: scroll;
 }
 
 .scroll-y::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 .scroll-y::-webkit-scrollbar-track {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .scroll-y::-webkit-scrollbar-thumb {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-image: linear-gradient(#1ed661, #1ed661);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ffff;
 }

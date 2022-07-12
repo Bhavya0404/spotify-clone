@@ -1,246 +1,334 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Spotify Clone</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Spotify - Web Player</title>
+  </head>
+  <body>
     <div class="container">
+      <aside id="aside-container">
+        <div class="space-1">
+          <section class="navigate-section">
+            <div class="navigate-container">
+              <div id="spotify-logo-div">
+                <img
+                  id="spotify-logo"
+                  src="../spotify-clone/assets/images/spotify-logo.png"
+                  alt="Spotify"
+                />
+              </div>
 
-        <aside id="aside-container" >
+              <div class="icons-div-1 pointer">
+                <a href="#">
+                  <span><i class="fa fa-home"></i></span> Home</a
+                >
+                <a href="#">
+                  <span><i class="fa fa-search"></i></span> Search</a
+                >
+                <a href="#">
+                  <span><i class="fa fa-bookmark"></i></span> Your Library</a
+                >
+              </div>
 
-            <div class="space-1">
-                <section class="navigate-section">
-                    <div class="navigate-container">
-    
-                        <div id="spotify-logo-div">
-                            <img id="spotify-logo" src="../spotify-clone/assets/images/spotify-logo.png" alt="Spotify">
-                        </div>
-                        
-                        <div class="icons-div-1 pointer">
-                            <a href="#"> <span><i class="fa fa-home"></i></span> Home</a>
-                            <a href="#"> <span><i class="fa fa-search"></i></span> Search</a>
-                            <a href="#"> <span><i class="fa fa-bookmark"></i></span> Your Library</a>
-                        </div>
-    
-                        <div class="icons-div-1 pointer">
-                            <a href="#"> <span><i class="fa fa-plus"></i></span> Create Playlist</a>
-                            <a href="#"> <span><i class="fa fa-heart"></i></span> Liked Songs</a>
-                        </div>
-    
-                    </div>
-                </section>
-    
-                <hr>
+              <div class="icons-div-1 pointer">
+                <a href="#">
+                  <span><i class="fa fa-plus"></i></span> Create Playlist</a
+                >
+                <a href="#">
+                  <span><i class="fa fa-heart"></i></span> Liked Songs</a
+                >
+              </div>
             </div>
-                <div class="space-2">
-                <section class="playlist scroll-y">
-                     <div class="icons-div-1 ">
-                        <a href="#">Best Songs</a>
-                        <a href="#">Hindi Songs</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                        <a href="#">English Songs Best Songs of All the Time in History</a>
-                     </div>
-                </section>
+          </section>
+
+          <hr />
+        </div>
+        <div class="space-2">
+          <section class="playlist scroll-y">
+            <div class="icons-div-1">
+              <a href="#">Best Songs</a>
+              <a href="#">Hindi Songs</a>
+              <a href="#">Intense Studying</a>
+              <a href="#">NCS Collection</a>
+              <a href="#">Your Top songs 2020</a>
+              <a href="#">Best English Songs Biggest hits from the 2010s</a>
             </div>
-        </aside>
+          </section>
+        </div>
+      </aside>
 
-        <main class="scroll-y">
-            <div class="main-container ">
-                <section class="section-1 ">
-                    <h1>Good evening</h1>
+      <main class="scroll-y">
+        <div class="main-container">
+          <section class="section-1">
+            <h1>Good evening</h1>
 
-                    <div class="card-container">
-                        <div class="card">
-                            <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                            <p>Hindi Songs</p>
-                        </div>
+            <div class="card-container">
+              <div class="card">
+                <img
+                  src="../spotify-clone/assets/images/hindi-pic.png"
+                  alt=""
+                />
+                <p>Hindi Songs</p>
+              </div>
 
-                        <div class="card">
-                            <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                            <p>Hindi Songs</p>
-                        </div>
+              <div class="card">
+                <img
+                  src="../spotify-clone/assets/images/best-songs-pic.png"
+                  alt=""
+                />
+                <p>Best Songs</p>
+              </div>
 
-                        <div class="card">
-                            <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                            <p>Hindi Songs</p>
-                        </div>
+              <div class="card">
+                <img
+                  src="../spotify-clone/assets/images/best-english-pic.png"
+                  alt=""
+                />
+                <p>Best English Songs</p>
+              </div>
 
-                        <div class="card">
-                            <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                            <p>Hindi Songs</p>
-                        </div>
-
-                        <div class="card">
-                            <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                            <p>Hindi Songs</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section-2">
-                    <h1>Your shows</h1>
-                    <div class="card-container">
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">The Ranveer Show</h3>
-                                <p class="no-space">BeerBiceps</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">The Ranveer Show</h3>
-                                <p class="no-space">BeerBiceps</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">The Ranveer Show</h3>
-                                <p class="no-space">BeerBiceps</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
-                <section class="section-3 ">
-                    <h1>Suggested Artists</h1>
-
-                    <div class="card-container ">
-
-                        <div class="show-card">
-                            <div class="show-card-space ">
-                                    <img id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Pritam</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Arijit Singh</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                        <div class="show-card">
-                            <div class="show-card-space">
-                                    <img  id="border-radius-round" src="../spotify-clone/assets/images/test-image.JPG" alt="">
-                                <h3 class="no-space">Shawn Mendes</h3>
-                                <p class="no-space">Artist</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </section>
+              <div class="card">
+                <img
+                  src="../spotify-clone/assets/images/barish-pic.png"
+                  alt=""
+                />
+                <p>BARIHSSSSSS</p>
+              </div>
             </div>
-        </main>
+          </section>
 
-        <footer>
-            
-            <div class="footer-container">
-
-                <div class="writer">
-                    <div id="song-image-div">
-                        <img id="song-image" src="../spotify-clone/assets/images/demons.jpg" alt="Song">
-                    </div>
-
-                    <div class="writer-details">                      
-                            <h4>Demons</h4>
-                            <p>Imagine Dragons</p>
-                    </div>
-                    
-                        
-
+          <section class="section-2">
+            <h1>Your shows</h1>
+            <div class="card-container">
+              <div class="show-card">
+                <img
+                  id="ranveer"
+                  src="https://is3-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f3/e3/a1/f3e3a1b3-7ec8-b00c-d993-56adb944675b/mza_5251137683977966066.jpg/1200x1200bb.jpg"
+                  alt=""
+                />
+                <div class="your-show-text">
+                  <h3 class="no-space">The Ranveer Show</h3>
+                  <p class="no-space">BeerBiceps</p>
                 </div>
+              </div>
 
-                <div class="music-player">
-                    <div id="action-buttons">
-                        <button id="play" type="submit"><i class="fa fa-play-circle"></i></button>
-                    </div>
+              <div class="show-card">
+                <img
+                  id="nzxt"
+                  src="https://nzxt.com/assets/cms/34299/1632944362-artboard-17-copy.png?auto=format&fit=clip&fm=webp&h=398&w=708"
+                  alt=""
+                />
+                <div class="your-show-text">
+                  <h3 class="no-space">NZXT PODCAST</h3>
+                  <p class="no-space">NZXT</p>
                 </div>
+              </div>
 
-                <div class="writer">
-                    <div id="song-image-div">
-                        <img id="song-image" src="../spotify-clone/assets/images/test-image.JPG" alt="Song">
-                    </div>
+              <div class="show-card">
+                <img
+                  id="raj"
+                  src="https://is5-ssl.mzstatic.com/image/thumb/Podcasts125/v4/6d/7d/88/6d7d8833-284c-4da8-4ad0-2ae06e95c5c0/mza_16986623571277996749.jpeg/1200x1200bb.jpg"
+                  alt=""
+                />
+                <div class="your-show-text">
+                  <h3 class="no-space">Figuring Out</h3>
+                  <p class="no-space">Raj Shamani</p>
                 </div>
+              </div>
+            </div>
+          </section>
 
+          <section class="section-3">
+            <h1>Suggested Artists</h1>
+
+            <div class="card-container">
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://static.toiimg.com/photo/83402681.cms"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">Pritam</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="./artists/arijit.html" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://publicbiography.com/public/uploads/news-3381.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">Arijit Singh</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://images8.alphacoders.com/107/1079105.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">Shawn Mendes</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://media.gettyimages.com/photos/recording-arist-lukas-graham-forchhammer-of-music-group-lukas-graham-picture-id626533040?s=612x612"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">Lukas Graham</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://i.ytimg.com/vi/cE3QNGQBlN0/maxresdefault.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">BLACKPINK</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://i.scdn.co/image/ab6761610000e5ebafa368512edd001c139d970a"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">Shubh</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://www.forbesindia.com/media/images/2022/Feb/img_178083_ap-highres14_high-res_s_sm.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">AP Dhillon</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+
+              <a href="#" class="container-box">
+                <div class="image-frame">
+                  <img
+                    id="border-radius-round"
+                    src="https://png.pngitem.com/pimgs/s/397-3977174_the-chainsmokers-chainsmokers-singer-hd-png-download.png"
+                    alt=""
+                  />
+                </div>
+                <div class="your-show-text">
+                  <h3 class="no-space">The Chainsmokers</h3>
+                  <p class="no-space">Artist</p>
+                </div>
+              </a>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-container">
+          <div class="writer">
+            <div id="song-image-div">
+              <img
+                id="song-image"
+                src="../spotify-clone/assets/images/demons.jpg"
+                alt="Song"
+              />
             </div>
 
-        </footer>
+            <div class="writer-details">
+              <h4>Demons</h4>
+              <p>Imagine Dragons</p>
+            </div>
+          </div>
+
+          <div class="music-player">
+            <div class="action-buttons">
+              <div id="left">
+                <i class="fa fa-backward"></i>
+              </div>
+              <div id="play">
+                <i class="fa fa-play-circle"></i>
+              </div>
+              <div id="right">
+                <i class="fa fa-forward"></i>
+              </div>
+            </div>
+
+            <div class="song-status">
+              <p>2:53</p>
+              <input
+                type="range"
+                name="range"
+                id="my-progress-bar"
+                min="0"
+                max="100"
+              />
+              <p>3:59</p>
+            </div>
+          </div>
+
+          <div class="sound-bar">
+            <span><i id="speaker-icon" class="fa fa-volume-up"></i></span>
+            <input
+              type="range"
+              name="range"
+              id="my-progress-bar-sound"
+              min="0"
+              max="100"
+            />
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
